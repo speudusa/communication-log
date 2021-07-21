@@ -7,17 +7,12 @@ namespace communication_log
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter a Number:");
+            Console.WriteLine("Enter your name:");
             string input = Console.ReadLine();
 
-            if(Int32.Parse(input) % 2 == 0)
-            {
-                Console.WriteLine("Your number is even.");
-            }
-            else
-            {
-                Console.WriteLine("Your number is odd.");
-            }
+            int nameLength = input.Length;
+
+            Console.WriteLine($"Your name, {input}, contains {nameLength} letters.");
 
             Console.WriteLine("Hello, Alyce");
         }
