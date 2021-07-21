@@ -6,7 +6,7 @@ namespace communication_log
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number.");
+            Console.WriteLine("Enter a number: ");
             string input = Console.ReadLine();
 
             if (Int32.Parse(input) % 2 == 0)
