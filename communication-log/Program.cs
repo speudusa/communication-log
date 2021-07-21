@@ -7,6 +7,8 @@ namespace communication_log
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Taco test!");
+
             Console.WriteLine("Enter a Number:");
             string input = Console.ReadLine();
 
