@@ -6,7 +6,7 @@ namespace communication_log
     {
         static void Main(string[] args)
         {
-
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Enter a Number:");
             string input = Console.ReadLine();
 
