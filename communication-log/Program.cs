@@ -6,6 +6,7 @@ namespace communication_log
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Enter a number:");
             string input = Console.ReadLine();
 
@@ -17,6 +18,7 @@ namespace communication_log
             {
                 Console.WriteLine("Your number is odd.");
             }
+
         }
     }
 }
